@@ -185,7 +185,7 @@ Traditional rendering methods create all DOM elements at once for large datasets
 
 ## Demo
 
-<video width="100%" src="https://raw.githubusercontent.com/Jason12306/vue-async-virtual-scroll/refs/heads/main/screen-recording/video.mp4" autoplay muted loop/>
+https://github.com/user-attachments/assets/b84d2e26-de03-4e89-8f81-c0abb02aa8cc
 
 ## License
 
