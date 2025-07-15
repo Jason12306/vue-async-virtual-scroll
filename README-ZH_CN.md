@@ -16,14 +16,7 @@
 ### 安装组件
 
 ```bash
-npm install your-package-name
-```
-
-```ts
-import AsyncVirtualScroll from '@xxx/AsyncVirtualScroll'
-// ...
-app.component('AsyncVirtualScroll', AsyncVirtualScroll)
-// ...
+npm install @jason12306/vue-async-virtual-scroll
 ```
 
 ### 基础使用
@@ -45,6 +38,8 @@ app.component('AsyncVirtualScroll', AsyncVirtualScroll)
 
 <script setup lang="ts">
   import { ref, onMounted } from 'vue'
+  import AsyncVirtualScroll from '@jason12306/vue-async-virtual-scroll'
+  import '@jason12306/vue-async-virtual-scroll/vue-async-virtual-scroll.css'
 
   const show = ref(false)
   const num = 500
@@ -53,7 +48,7 @@ app.component('AsyncVirtualScroll', AsyncVirtualScroll)
   for (let i = 1; i <= num; i++) {
     items.value.push({
       id: i,
-      text: `项目 ${i}`,
+      text: `Item ${i}`,
       color: i % 2 ? '#e0f7fa' : '#fffde7',
     })
   }
