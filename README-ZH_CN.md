@@ -2,6 +2,8 @@
 
 > 高性能虚拟滚动组件，支持动态高度渲染，优化大数据列表展示性能
 
+[react 版本](https://github.com/Jason12306/react-async-virtual-scroll)
+
 ## 特性
 
 - 🚀 高效渲染海量数据

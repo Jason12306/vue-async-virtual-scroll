@@ -4,6 +4,8 @@
 
 [简体中文](https://github.com/Jason12306/vue-async-virtual-scroll/blob/main/README-ZH_CN.md)
 
+[react version](https://github.com/Jason12306/react-async-virtual-scroll)
+
 ## Features
 
 - 🚀 Efficient rendering of massive datasets
