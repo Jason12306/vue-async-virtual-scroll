@@ -130,6 +130,8 @@ export function addIndex(list: any[]) {
  * 包裹滚动元素，添加 async-virtual-scroll-wrapper 容器
  */
 export function wrapperScrollEl(el: HTMLElement) {
+  if(!el.parentNode) return
+  
   if (
     el.parentNode &&
     (el.parentNode as HTMLElement).classList.contains('async-virtual-scroll-wrapper')
@@ -141,4 +143,5 @@ export function wrapperScrollEl(el: HTMLElement) {
   wrapper.style.position = 'relative'
   el.parentNode!.insertBefore(wrapper, el)
   wrapper.appendChild(el)
+  return wrapper
 }

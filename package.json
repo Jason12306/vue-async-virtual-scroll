@@ -12,8 +12,7 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "pub": "npm run build-only && cd dist && npm publish --access public",
-    "test": "vitest --ui",
-    "coverage": "vitest"
+    "test": "vitest --ui"
   },
   "main": "vue-async-virtual-scroll.js",
   "description": "High-performance asynchronous virtual scroll component for Vue 3 with dynamic height support and optimized rendering for large datasets",
@@ -50,6 +49,7 @@
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.29.0",
     "eslint-plugin-vue": "~10.2.0",
+    "happy-dom": "^18.0.1",
     "jiti": "^2.4.2",
     "npm-run-all2": "^8.0.4",
     "prettier": "3.5.3",
